@@ -1,0 +1,6 @@
+@vehicle_routing_HostAddress = http://localhost:5147
+
+GET {{vehicle_routing_HostAddress}}/sampleURL/
+Accept: application/json
+
+###
