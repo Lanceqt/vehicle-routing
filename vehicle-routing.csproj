@@ -9,14 +9,15 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Google.Maps.RouteOptimization.V1" Version="1.4.0"/>
-        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.0"/>
-        <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="10.0.0"/>
+        <PackageReference Include="FastEndpoints" Version="7.1.1" />
+        <PackageReference Include="Google.Maps.RouteOptimization.V1" Version="1.4.0" />
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.0" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="10.0.0" />
     </ItemGroup>
 
     <ItemGroup>
-        <Compile Remove="Reference/**/*.cs"/>
-        <None Include="Reference/**"/>
+        <Compile Remove="Reference/**/*.cs" />
+        <None Include="Reference/**" />
     </ItemGroup>
 
 </Project>

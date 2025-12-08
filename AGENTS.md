@@ -20,8 +20,15 @@ This project is for learning software development fundamentals, specifically:
 - **Imports**: Implicit usings enabled - avoid unnecessary using statements
 - **Async**: Use async/await patterns for all I/O operations (database, API calls)
 - **Entity Framework**: Follow EF Core conventions, use DbContext pattern
-- **API Design**: RESTful endpoints with proper HTTP methods and status codes
+- **API Design**: RESTful endpoints with proper HTTP methods and status codes using **FastEndpoints** package
+- **FastEndpoints**: Use FastEndpoints framework for API development - use context7 MCP server to look up documentation: `/fastendpoints/documentation`
 - **Error Handling**: Use try-catch for external API calls (Google Maps), return appropriate HTTP responses
+
+## Documentation Lookup
+- **First and foremost**: Use context7 MCP server to look up documentation for any libraries/packages before implementing
+- Use `context7_resolve-library-id` to find the correct library ID
+- Use `context7_get-library-docs` to get API references and code examples
+- This applies to FastEndpoints, Entity Framework, React, TanStack, and any other dependencies
 
 ## Project Structure
 - Root namespace: `vehicle_routing`
