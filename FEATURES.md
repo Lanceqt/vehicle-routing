@@ -3,30 +3,40 @@
     - Read
     - Update
     - Delete
+    - Receive
+    - Respond
 
 - Workers
     - Create
     - Read
     - Update
     - Delete
+    - Receive
+    - Respond
 
 - Schedule
     - Create
     - Read
     - Update
     - Delete
+    - Receive
+    - Respond
 
 - Tasks
     - Create
     - Read
     - Update
     - Delete
+    - Receive
+    - Respond
 
 - Vehicles
     - Create
     - Read
     - Update
     - Delete
+    - Receive
+    - Respond
 
 - Route optimization
     - Send vehicles to GCP
