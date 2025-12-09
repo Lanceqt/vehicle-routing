@@ -7,6 +7,7 @@ var app = bld.Build();
 app.UseFastEndpoints();
 app.Run();
 
+
 string[] zealandAddresses =
 [
     "Københavns Rådhus — Rådhuspladsen 1, 1550 København V",
